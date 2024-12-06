@@ -27,7 +27,7 @@ function App() {
       if(localStorage.getItem(localKey)) {
         const apiData = JSON.parse(localStorage.getItem(localKey))
         setData(apiData)
-        console.log('Fetchedfrom cache today')
+        console.log('Fetched from cache today')
         return
       }
       localStorage.clear()
